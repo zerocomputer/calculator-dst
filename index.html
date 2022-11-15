@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="window">
+        <main>
+            <div class="function">
+                <div class="result">
+                    <p class="expressionResult" id="curExp">0</p>
+                    <p class="expression" id="curExpResult">0</p>
+                </div>
+                <div class="buttons">
+                    <button>%</button>
+                    <button data-func="sqrt">√</button>
+                    <button data-func="pow2">x²</button>
+                    <button data-func="1/x">1/x</button>
+                    <button data-func="c">CE</button>
+                    <button data-func="clear">C</button>
+                    <button data-func="backspace">Bks</button>
+                    <button>/</button>
+                    <button class="number">7</button>
+                    <button class="number">8</button>
+                    <button class="number">9</button>
+                    <button>*</button>
+                    <button class="number">4</button>
+                    <button class="number">5</button>
+                    <button class="number">6</button>
+                    <button>-</button>
+                    <button class="number">1</button>
+                    <button class="number">2</button>
+                    <button class="number">3</button>
+                    <button>+</button>
+                    <button data-func="+-">+-</button>
+                    <button class="number">0</button>
+                    <button>.</button>
+                    <button data-func="showRes" class="result">=</button>
+                </div>
+            </div>
+            <div class="history">
+                <h3 class="title"><span>History</span> <span id="clearHistory">Clear all</span></h3>
+                <div class="content" id="history-content"></div>
+                <div class="nocontent">
+                    <p class="text">История отсутсвует</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
